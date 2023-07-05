@@ -1,0 +1,258 @@
+@font-face {
+    font-family: letra-principal;
+    src: url(../RECURSOS/letra-HK.ttf);
+}
+
+@font-face {
+    font-family: letra-nav;
+    src: url(../RECURSOS/letra-CK.ttf);
+}
+
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+body{
+    margin: 0px;
+    background-color: coral;
+
+}
+
+main{
+    font-family: letra-principal;
+    font-size: 23px;
+    padding-top: 70px;
+    background-color:rgb(228, 248, 255);
+}
+
+.para-navegar{
+    display: flex;
+    flex-direction: column;
+}
+
+#navegar{
+    position: fixed;
+    width: 100%;
+}
+
+.barra-navegacion{
+    font-family: letra-nav;
+    font-size: 25px;
+    list-style-type: none;
+    background-color: coral;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    margin: 0px;
+    letter-spacing: 1px;
+}
+
+.logo{
+    width: 60px;
+    height: 60px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+
+#introduccion{
+    background-image: url("../RECURSOS/imagen-introduccion.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: azure;
+    width: 100%;
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-logo{
+    font-size: 150px;
+    color: whitesmoke;
+    margin: 0px 0px 10px 0px;
+    letter-spacing: 5px;
+    text-shadow: 0 0 1em coral, 0 0 0.2em coral;
+}
+
+.subtitulo-logo{
+    letter-spacing: 2px;
+    text-shadow: 0 0 1em rgb(163, 189, 199), 0 0 0.2em rgb(163, 189, 199);
+}
+
+.informacion{
+    margin: 30px;
+    text-align: justify;
+    margin-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bapu-flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.bapu-logotipo{
+    margin: 20px;
+    width: 300px;
+    height: 300px;
+}
+
+main h2{
+    font-size: 35px;
+    color: rgb(228, 248, 255);
+    background-color: coral;
+    padding: 25px;
+    font-family: letra-nav, letra-principal;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+main a{
+    color: coral;
+}
+
+.bapu-float contenido{
+    max-width: 500px;
+}
+.bapu-ods{
+    float:left;
+    margin: 5px;
+}
+
+.barra-navegacion a{
+    text-decoration: none;
+    color: ghostwhite;
+}
+
+.perfiles{
+    border-radius: 100%;
+    width: 200px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.contenido-personajes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.contenido-ideas{
+    display: flex;
+    justify-content: space-around;
+}
+
+#integrantes p{
+    text-align: center;
+}
+
+.jmc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color:cadetblue;
+    margin: 0px 30px 30px 30px;
+    border-radius: 10px;
+    
+}
+
+.jmc h3,h4{
+    margin: 5px 0px 0px 0px;
+}
+
+.jmc p{
+    text-align: center;
+    margin: 20px;
+}
+
+.jmct{
+    display: flex;
+    flex-direction: column;
+    background-color: aquamarine;
+    margin: 0px 30px 30px 30px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+.contenido-ideas .jmc{
+    background-color: aquamarine;
+}
+
+.cit{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.jmc .alcance,li{
+    margin: 20px;
+    text-align: justify;
+}
+
+.download-button{
+    font-family: letra-nav,letra-principal;
+    padding: 10px;
+    background-color:red;
+    color: azure;
+    border-radius: 10px;
+    font-size: 50px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bapu-codigo{
+    background-color: aquamarine;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 20px;
+}
+
+.div-para-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tinkercad-img{
+    border-radius: 20px;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: coral;
+}
+
+.footer p{
+    font-family: letra-principal;
+    padding: 10px;
+    text-align: center;
+}
+
+
+#digitalers{
+    font-size: 30px;
+
+}
+
+#digitalers:hover{
+    color: rgb(197, 92, 54);
+}
+
+a:hover {
+    color: rgb(197, 92, 54);
+}
+
+.download-button:hover{
+    color: azure;
+    background-color: cadetblue;
+}
